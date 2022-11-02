@@ -4,10 +4,13 @@ The requiremts were defined as below :
 Write a simple web-service application which provides access to a data set.
 The solution should be a publicly accessible service API that responds to a couple API
 calls:
+
 ● GET /api/v1/item/{ID} - returns item ID from the dataset (e.g. row 42 of the CSV) in
 JSON
+
 ● POST /api/v1/item - OPTIONAL - creates a new item (from a JSON request body)
 and returns its ID that can be used to retrieve it with the GET call
+
 
 The python script to handle the request is located in CSV folder next to the temp CSV that is used for the test.
 
